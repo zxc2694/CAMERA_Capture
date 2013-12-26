@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AHBPrescTable	system_stm32f4xx.c	/^  __I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};$/;"	v
+AUDIO_RESET_GPIO	ov7670.h	24;"	d
+AUDIO_RESET_GPIO_CLK	ov7670.h	22;"	d
+AUDIO_RESET_PIN	ov7670.h	23;"	d
+BusFault_Handler	stm32f4xx_it.c	/^void BusFault_Handler(void)$/;"	f
+CAMERATimeout	ov7670.c	/^__IO uint32_t  CAMERATimeout = CAMERA_LONG_TIMEOUT;$/;"	v
+CAMERA_DeInit	ov7670.c	/^uint32_t CAMERA_DeInit(void)$/;"	f
+CAMERA_FLAG_TIMEOUT	ov7670.h	43;"	d
+CAMERA_I2C	ov7670.h	47;"	d
+CAMERA_I2C_CLK	ov7670.h	48;"	d
+CAMERA_I2C_GPIO	ov7670.h	51;"	d
+CAMERA_I2C_GPIO_AF	ov7670.h	50;"	d
+CAMERA_I2C_GPIO_CLOCK	ov7670.h	49;"	d
+CAMERA_I2C_SCL_PIN	ov7670.h	52;"	d
+CAMERA_I2C_SDA_PIN	ov7670.h	53;"	d
+CAMERA_I2S_SCL_PINSRC	ov7670.h	54;"	d
+CAMERA_I2S_SDA_PINSRC	ov7670.h	55;"	d
+CAMERA_Init	ov7670.c	/^uint32_t CAMERA_Init()$/;"	f
+CAMERA_LONG_TIMEOUT	ov7670.h	44;"	d
+CAMERA_READ_ADDRESS	ov7670.c	19;"	d	file:
+CAMERA_RESET_DELAY	ov7670.c	16;"	d	file:
+CAMERA_TIMEOUT_UserCallback	main.c	/^uint32_t CAMERA_TIMEOUT_UserCallback(void)$/;"	f
+CAMERA_WRITE_ADDRESS	ov7670.c	20;"	d	file:
+Camera_CtrlInterface_DeInit	ov7670.c	/^static void Camera_CtrlInterface_DeInit(void)$/;"	f	file:
+Camera_CtrlInterface_Init	ov7670.c	/^static void Camera_CtrlInterface_Init(void)$/;"	f	file:
+Camera_DeInit	ov7670.c	/^static uint32_t Camera_DeInit(void)$/;"	f	file:
+Camera_GPIO_DeInit	ov7670.c	/^static void Camera_GPIO_DeInit(void)$/;"	f	file:
+Camera_GPIO_Init	ov7670.c	/^static void Camera_GPIO_Init(void)$/;"	f	file:
+Camera_Init	ov7670.c	/^static uint32_t Camera_Init()$/;"	f	file:
+Camera_ReadRegister	ov7670.c	/^static uint32_t Camera_ReadRegister(uint8_t RegisterAddr)$/;"	f	file:
+Camera_Reset	ov7670.c	/^static void Camera_Reset(void)$/;"	f	file:
+Camera_WriteRegister	ov7670.c	/^static uint32_t Camera_WriteRegister(uint8_t RegisterAddr, uint8_t RegisterValue)$/;"	f	file:
+Codec_TIMEOUT_UserCallback	main.c	/^uint32_t Codec_TIMEOUT_UserCallback(void)$/;"	f
+CopyDataInit	startup_stm32f4xx.s	/^CopyDataInit:$/;"	l
+DebugMon_Handler	stm32f4xx_it.c	/^void DebugMon_Handler(void)$/;"	f
+Default_Handler	startup_stm32f4xx.s	/^Default_Handler:$/;"	l
+Delay	ov7670.c	/^static void Delay( __IO uint32_t nCount)$/;"	f	file:
+EVAL_AUDIO_GetSampleCallBack	main.c	/^uint16_t EVAL_AUDIO_GetSampleCallBack(void){$/;"	f
+EVAL_AUDIO_TransferComplete_CallBack	main.c	/^void EVAL_AUDIO_TransferComplete_CallBack(uint32_t pBuffer, uint32_t Size){$/;"	f
+FillZerobss	startup_stm32f4xx.s	/^FillZerobss:$/;"	l
+HardFault_Handler	stm32f4xx_it.c	/^void HardFault_Handler(void)$/;"	f
+I2C_SPEED	ov7670.h	34;"	d
+Infinite_Loop	startup_stm32f4xx.s	/^Infinite_Loop:$/;"	l
+LoopCopyDataInit	startup_stm32f4xx.s	/^LoopCopyDataInit:$/;"	l
+LoopFillZerobss	startup_stm32f4xx.s	/^LoopFillZerobss:$/;"	l
+MemManage_Handler	stm32f4xx_it.c	/^void MemManage_Handler(void)$/;"	f
+NMI_Handler	stm32f4xx_it.c	/^void NMI_Handler(void)$/;"	f
+OV7670_H_	ov7670.h	10;"	d
+PLL_M	system_stm32f4xx.c	147;"	d	file:
+PLL_N	system_stm32f4xx.c	148;"	d	file:
+PLL_P	system_stm32f4xx.c	151;"	d	file:
+PLL_Q	system_stm32f4xx.c	154;"	d	file:
+PendSV_Handler	stm32f4xx_it.c	/^void PendSV_Handler(void)$/;"	f
+Reset_Handler	startup_stm32f4xx.s	/^Reset_Handler:  $/;"	l
+SVC_Handler	stm32f4xx_it.c	/^void SVC_Handler(void)$/;"	f
+SetSysClock	system_stm32f4xx.c	/^static void SetSysClock(void)$/;"	f	file:
+SysTick_Handler	stm32f4xx_it.c	/^void SysTick_Handler(void)$/;"	f
+SystemCoreClock	system_stm32f4xx.c	/^  uint32_t SystemCoreClock = 168000000;$/;"	v
+SystemCoreClockUpdate	system_stm32f4xx.c	/^void SystemCoreClockUpdate(void)$/;"	f
+SystemInit	system_stm32f4xx.c	/^void SystemInit(void)$/;"	f
+SystemInit_ExtMemCtl	system_stm32f4xx.c	/^void SystemInit_ExtMemCtl(void)$/;"	f
+UsageFault_Handler	stm32f4xx_it.c	/^void UsageFault_Handler(void)$/;"	f
+VECT_TAB_OFFSET	system_stm32f4xx.c	142;"	d	file:
+__STM32F4xx_CONF_H	stm32f4xx_conf.h	28;"	d
+__STM32F4xx_IT_H	stm32f4xx_it.h	30;"	d
+assert_param	stm32f4xx_conf.h	83;"	d
+assert_param	stm32f4xx_conf.h	87;"	d
+fprintf	tiny_printf.c	/^int fprintf(FILE * stream, const char *fmt, ...)$/;"	f
+g_pfnVectors	startup_stm32f4xx.s	/^g_pfnVectors:$/;"	l
+main	main.c	/^int main(void)$/;"	f
+printf	tiny_printf.c	/^int printf(const char *fmt, ...)$/;"	f
+sprintf	tiny_printf.c	/^int sprintf(char *buf, const char *fmt, ...)$/;"	f
+ts_formatlength	tiny_printf.c	/^int ts_formatlength(const char *fmt, va_list va)$/;"	f
+ts_formatstring	tiny_printf.c	/^int ts_formatstring(char *buf, const char *fmt, va_list va)$/;"	f
+ts_itoa	tiny_printf.c	/^void ts_itoa(char **buf, unsigned int d, int base)$/;"	f
